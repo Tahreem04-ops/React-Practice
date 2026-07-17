@@ -1,0 +1,61 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#eef2f7;
+}
+
+h1{
+  text-align:center;
+  margin-top:30px;
+  color:#333;
+}
+
+.table-container{
+
+  width:80%;
+
+  margin:40px auto;
+
+  background:white;
+
+  padding:25px;
+
+  border-radius:10px;
+
+  box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+}
+
+table{
+
+  width:100%;
+
+  border-collapse:collapse;
+
+}
+
+th{
+
+  background:#2563eb;
+
+  color:white;
+
+  padding:12px;
+
+}
+
+td{
+
+  padding:12px;
+
+  text-align:center;
+
+  border-bottom:1px solid #ddd;
+
+}
+
+tr:hover{
+
+  background:#f3f4f6;
+
+}
