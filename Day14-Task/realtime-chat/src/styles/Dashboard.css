@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:"Poppins",sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#667eea,#764ba2);
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.dashboard{
+width:1200px;
+min-height:90vh;
+background:white;
+border-radius:20px;
+padding:30px;
+box-shadow:0 20px 50px rgba(0,0,0,.2);
+}
+
+.dashboard-header{
+text-align:center;
+margin-bottom:35px;
+}
+
+.dashboard-header h1{
+font-size:40px;
+color:#4f46e5;
+margin-bottom:10px;
+}
+
+.dashboard-header p{
+font-size:18px;
+color:#666;
+}
+
+/* Form */
+
+.order-form{
+display:grid;
+grid-template-columns:repeat(6,1fr);
+gap:15px;
+margin-bottom:35px;
+}
+
+.order-form input,
+.order-form select{
+padding:14px;
+border:2px solid #ddd;
+border-radius:10px;
+font-size:15px;
+outline:none;
+}
+
+.order-form input:focus,
+.order-form select:focus{
+border-color:#4f46e5;
+}
+
+.order-form button{
+background:#4f46e5;
+color:white;
+border:none;
+border-radius:10px;
+cursor:pointer;
+font-size:16px;
+font-weight:600;
+transition:.3s;
+}
+
+.order-form button:hover{
+background:#4338ca;
+}
+
+/* Cards */
+
+.orders-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+.order-card{
+background:#f8fafc;
+padding:20px;
+border-radius:15px;
+box-shadow:0 10px 20px rgba(0,0,0,.08);
+transition:.3s;
+position:relative;
+}
+
+.order-card:hover{
+transform:translateY(-5px);
+}
+
+.order-card h2{
+color:#4f46e5;
+margin-bottom:15px;
+font-size:22px;
+}
+
+.order-card p{
+margin:8px 0;
+color:#444;
+}
+
+.order-card strong{
+color:#111;
+}
+
+.order-card small{
+display:block;
+margin-top:15px;
+color:gray;
+}
+
+/* Status */
+
+.status-badge{
+position:absolute;
+top:20px;
+right:20px;
+padding:7px 14px;
+color:white;
+border-radius:20px;
+font-size:13px;
+font-weight:600;
+}
+
+/* Empty */
+
+.empty-orders{
+text-align:center;
+padding:80px;
+color:#666;
+}
+
+.empty-orders h2{
+font-size:32px;
+margin-bottom:10px;
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+.dashboard{
+  width:100%;
+  max-width:1100px;
+  min-height:90vh;
+  background:white;
+  border-radius:20px;
+  padding:30px;
+  margin:auto;
+  box-shadow:0 20px 50px rgba(0,0,0,.2);
+}
+
+
+.order-form{
+grid-template-columns:1fr;
+}
+
+.dashboard-header h1{
+font-size:28px;
+}
+
+}
