@@ -1,4 +1,4 @@
-````markdown
+
 # Stripe Payment Integration (Node.js + Express)
 
 A simple Node.js and Express application that integrates **Stripe Checkout** to create secure online payment sessions. The API generates a Stripe Checkout Session and returns a payment URL that redirects users to Stripe's hosted payment page.
