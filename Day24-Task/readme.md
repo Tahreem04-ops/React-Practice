@@ -137,31 +137,16 @@ http://localhost:5000/create-payment
 
 # 📷 Screenshots
 
-## 1. API Response (Postman)
+## 1. API Response 
 
-> Save the screenshot inside the **images** folder as:
+<img width="1069" height="718" alt="image" src="https://github.com/user-attachments/assets/e85ef9dc-b883-44ae-bd83-3ad2bbd5c7b5" />
 
-```
-images/postman-response.png
-```
-
-Then it will appear here:
-
-![Postman Response](images/postman-response.png)
 
 ---
 
 ## 2. Stripe Checkout Page
+<img width="1364" height="720" alt="image" src="https://github.com/user-attachments/assets/6116e116-484f-4169-b610-1304c2283287" />
 
-> Save the screenshot inside the **images** folder as:
-
-```
-images/stripe-checkout.png
-```
-
-Then it will appear here:
-
-![Stripe Checkout](images/stripe-checkout.png)
 
 ---
 
