@@ -90,6 +90,11 @@ npm run dev
 - Clicking the **View** button displays the selected product.
 - Smooth scrolling and responsive layout.
 
+
+<img width="1346" height="642" alt="image" src="https://github.com/user-attachments/assets/bf647845-5df3-4403-8262-532b98c7c109" />
+
+<img width="1344" height="608" alt="image" src="https://github.com/user-attachments/assets/7ba012bf-ff60-4a34-8a8e-7ad7ee02137a" />
+
 ---
 
 ## 🎯 Learning Outcomes
