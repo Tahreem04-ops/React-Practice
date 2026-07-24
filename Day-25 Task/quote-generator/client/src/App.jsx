@@ -5,7 +5,7 @@ import Spinner from "./components/Spinner.jsx";
 import Aurora from "./components/Aurora.jsx";
 import ParticleField from "./components/ParticleField.jsx";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const API_BASE = import.meta.env.VITE_API_URL || (import.meta.env.PROD ? "" : "http://localhost:5000");
 
 export default function App() {
   const [quote, setQuote] = useState(null);
@@ -23,7 +23,7 @@ export default function App() {
     setError("");
     setLiked(false);
     try {
-      const res = await axios.get(`${API_URL}/api/quote`);
+      const res = await axios.get(`${API_BASE}/api/quote`);
       setQuote(res.data);
       setKey((k) => k + 1);
       setQuoteCount((c) => c + 1);
