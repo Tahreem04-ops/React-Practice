@@ -61,6 +61,11 @@ The application returns:
   "message": "Internal Server Error"
 }
 ```
+### Screenshot
+<img width="1364" height="252" alt="image" src="https://github.com/user-attachments/assets/5683ce0b-a434-4149-a784-e96a10d11661" />
+
+<img width="1366" height="730" alt="image" src="https://github.com/user-attachments/assets/38d20c55-b89f-41fd-92d1-3e264a908f50" />
+
 
 The error is automatically saved in:
 
