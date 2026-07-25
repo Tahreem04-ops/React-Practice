@@ -97,8 +97,6 @@ Users
 ## 🛠️ Technologies Used
 
 - Supabase
-- PostgreSQL
-- SQL
 
 ---
 
@@ -126,6 +124,7 @@ Through this project, I learned:
 - Using UUIDs for unique identifiers
 - Applying cascading delete rules
 - Organizing data for a Kanban application
+  
 
 ---
 
