@@ -1,0 +1,155 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Poppins',sans-serif;
+  background:linear-gradient(135deg,#1e3c72,#2a5298);
+  min-height:100vh;
+}
+
+.app{
+  padding:40px;
+}
+
+.app h1{
+  text-align:center;
+  color:#fff;
+  font-size:42px;
+  margin-bottom:8px;
+  font-weight:700;
+}
+
+.subtitle{
+  text-align:center;
+  color:#dbeafe;
+  margin-bottom:40px;
+  font-size:18px;
+}
+
+.board{
+  display:flex;
+  justify-content:center;
+  gap:25px;
+  flex-wrap:wrap;
+}
+
+.column{
+  width:340px;
+  min-height:600px;
+  background:rgba(255,255,255,.12);
+  backdrop-filter:blur(14px);
+  border:1px solid rgba(255,255,255,.2);
+  border-radius:18px;
+  padding:20px;
+  transition:.3s;
+  box-shadow:0 12px 25px rgba(0,0,0,.25);
+}
+
+.column:hover{
+  transform:translateY(-6px);
+}
+
+.column h2{
+  text-align:center;
+  color:white;
+  margin-bottom:20px;
+  padding:12px;
+  border-radius:12px;
+  font-size:22px;
+  letter-spacing:.5px;
+}
+
+/* Different column colours */
+
+.column:nth-child(1) h2{
+  background:#f59e0b;
+}
+
+.column:nth-child(2) h2{
+  background:#2563eb;
+}
+
+.column:nth-child(3) h2{
+  background:#16a34a;
+}
+
+.task{
+  background:white;
+  border-radius:15px;
+  padding:18px;
+  margin-bottom:18px;
+  cursor:grab;
+  transition:.25s;
+  box-shadow:0 8px 18px rgba(0,0,0,.12);
+}
+
+.task:hover{
+  transform:scale(1.03);
+  box-shadow:0 15px 28px rgba(0,0,0,.2);
+}
+
+.task:active{
+  cursor:grabbing;
+}
+
+.task h3{
+  font-size:19px;
+  color:#1e293b;
+  margin-bottom:10px;
+}
+
+.task p{
+  color:#64748b;
+  font-size:14px;
+  line-height:1.6;
+}
+
+/* Empty Column */
+
+.column p{
+  text-align:center;
+  color:white;
+  opacity:.8;
+  margin-top:20px;
+}
+
+/* Scroll */
+
+::-webkit-scrollbar{
+  width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+  background:#94a3b8;
+  border-radius:20px;
+}
+
+::-webkit-scrollbar-track{
+  background:#e2e8f0;
+}
+
+/* Responsive */
+
+@media(max-width:1100px){
+
+.board{
+flex-direction:column;
+align-items:center;
+}
+
+.column{
+width:95%;
+max-width:500px;
+}
+
+.app h1{
+font-size:34px;
+}
+
+}
