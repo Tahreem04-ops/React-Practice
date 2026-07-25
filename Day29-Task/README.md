@@ -198,6 +198,11 @@ Kanban Board
 -------------------------------
 ```
 
+<img width="1318" height="683" alt="image" src="https://github.com/user-attachments/assets/dae9b994-acf9-4332-86af-95b900c222a1" />
+<img width="1317" height="689" alt="image" src="https://github.com/user-attachments/assets/25a7fb87-4579-4d7d-9af3-a4df3ca4199c" />
+
+
+
 ---
 
 ## 📚 Learning Outcomes
